@@ -9,7 +9,7 @@ const TypedCity = () => {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Delhi...", "Jaipur...", "Mumbai...", "Ladakh...", "Shimla...", "Manali...", "Agra...", "Goa...", "Kolkata...", "Chennai...",],
+      strings: ["Delhi...", "Jaipur...", "Mumbai...", "Ladakh...", "Shimla...", "Manali...", "Agra...", "Goa..."],
       typeSpeed: 70,
       backSpeed: 50,
       backDelay: 1500,
@@ -78,13 +78,14 @@ export default function Home() {
 
   return (
     <div className="h-[170vh] md:h-[200vh] mb-20">
-      <div className=' '>
-        <div className=' mx-auto w-[75vw] h-[30vh] md:h-[70vh] my-8 relative' >
+      <div >
+        <div className='relative mx-auto w-[75vw] h-[30vh] md:h-[70vh] my-8 ' >
           <Image src="/mahjid.avif" alt="mahjid" fill={true} className='object-cover  object-center rounded-4xl z-0 ' />
-          <div className='z-10  absolute top-[-1vh]  ml-[9.2vw]' >
-            <div className=" rounded-lg  p-8 flex flex-col items-center">
-              <div className="text-gray-900 text-3xl md:text-7xl font-extrabold tracking-wide uppercase drop-shadow-lg mb-4 flex justify-center items-center flex-col md:flex-row relative">
-                <div className='mr-[90vw] md:mr-0 '> DISCOVER &nbsp; </div> <div className='min-w-[500px]' > {TypedCity()}</div>
+          <div className='absolute z-10 top-[-1vh]  ml-[4vw] md:ml-[9.2vw]' >
+            <div className=" rounded-lg  p-8   ">
+              <div className="text-gray-900 text-4xl md:text-7xl font-extrabold tracking-wide uppercase drop-shadow-lg mb-4 flex justify-center items-center flex-col md:flex-row gap-1 relative max-w-[50vw] md:max-w-screen -mr-[2] ">
+                <div className='mr-[1vw] '> DISCOVER&nbsp; </div>
+                <div className='min-w-[230px]   md:min-w-[500px] text-4xl md:text-7xl ml-[15vw] md:ml-0' > {TypedCity()}</div>
               </div>
             </div>
           </div>

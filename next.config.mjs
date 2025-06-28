@@ -9,11 +9,7 @@ const nextConfig = {devIndicators: false ,  reactStrictMode: false,eslint: {
       {
         protocol: 'https',
         hostname: 'lh3.googleusercontent.com',
-      },],
-    //  domains: [
-    //   'avatars.githubusercontent.com', 
-    //   'lh3.googleusercontent.com'      
-    // ],
+      },]
   },};
 
 export default nextConfig;
