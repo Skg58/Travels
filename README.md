@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="app/favicon.ico" width="80" alt="Travels Icon" />
+  <img src="app/favicon.ico" width="60"  alt="Travels Icon" />
 </p>
 <h1 align="center">Travels — Explore India</h1>
-
 
 Travels is a comprehensive, modern travel booking web application designed to help users effortlessly explore, plan, and book trips across India. Built with the latest technologies like Next.js App Router and Tailwind CSS, it combines speed, scalability, and a beautiful responsive design to deliver a seamless user experience.
 
