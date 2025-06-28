@@ -185,8 +185,8 @@ const Page = () => {
       key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
       amount: order.amount,
       currency: order.currency,
-      name: 'My Store',
-      description: 'Test Transaction',
+      name: 'Travels',
+      description: 'Transaction',
       order_id: order.id,
       handler: async function (response) {
         {

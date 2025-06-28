@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Sessionwrapper from "@/components/sessionwrapper";
 import { Toaster } from "@/components/ui/sonner"
+import Script from 'next/script';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +31,7 @@ export default function RootLayout({ children }) {
           </div>
           <Toaster />
           <Footer />
-          <script src="https://cdn.lordicon.com/lordicon.js"></script>
+          <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
         </body>
       </Sessionwrapper>
     </html>
