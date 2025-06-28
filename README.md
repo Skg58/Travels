@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="app/favicon.ico" width="80" alt="Travels Icon" />
+  <img src="app/favicon.ico" width="60"  alt="Travels Icon" />
 </p>
 <h1 align="center">Travels — Explore India</h1>
 
