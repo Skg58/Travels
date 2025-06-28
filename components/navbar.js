@@ -48,7 +48,7 @@ const Navbar = () => {
       {session ? (
         <div className='mt-[30px] min-w-[6.3vw]   text-white opacity-[0.8] hover:opacity-[1] cursor-pointer rounded-full flex items-center justify-end'>
           <DropdownMenu>
-            <DropdownMenuTrigger><div className=' p-1 rounded-full mr-1 bg-black '><Image src={session.user.image ? session.user.image : session.user.picture} width={35} hieght={35} className='rounded-full cursor-pointer ' alt="img" /></div></DropdownMenuTrigger>
+            <DropdownMenuTrigger><div className=' p-1 rounded-full mr-1 bg-black '><Image src={session.user.image ? session.user.image : session.user.picture} width={35} height={35} className='rounded-full cursor-pointer ' alt="img" /></div></DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuLabel><Link href={"/My-Bookings"} className='cursor-pointer '><div className='w-full text-center hover:underline underline-offset-4'> My Booking</div></Link></DropdownMenuLabel>
               <DropdownMenuSeparator />
