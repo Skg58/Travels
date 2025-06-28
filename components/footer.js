@@ -39,7 +39,7 @@ const footer = () => {
         </div>
       </div>
       <div className='bg-white container mx-[14vw] h-[1px] w-[73vw] '></div>
-      <div className='text-white pt-3 text-center'>&copy;Copyright 2025 Travels. All Rights Reserved.</div>
+      <div className='text-white pt-3 text-center flex flex-col md:flex-row justify-center items-center gap-0 md:gap-1'><div> &copy;Copyright 2025 Travels.</div> <div> All Rights Reserved.</div></div>
       <div className='text-white pb-2 text-center'> Made with ❤️ by <Link href={"https://github.com/Skg58/Travels"} target='_blank'> <span className='hover:text-gray-400 hover:underline'>skg58</span></Link> </div>
     </footer>
   </>
