@@ -1,5 +1,5 @@
 <h1 align="left">
-  <img src="app/favicon.ico" width="45" height="45" style="vertical-align:middle; margin-right: 1px; margin-bottom: 5px;" />
+  <img src="app/favicon.ico" width="45" height="45" style="vertical-align:middle; margin-right: 1px; " />
   Travels — Explore India
 </h1>
 
@@ -49,16 +49,16 @@ Travels is a comprehensive, modern travel booking web application designed to he
 
 | Home Page | Booking Page | 
 |-----------|--------------|
-| ![Home1](public/readme_ss/home1.png) ![Home2](public/readme_ss/home2.png) | ![Home1](public/readme_ss/Booki.png) ![Home1](public/readme_ss/payment1.png) |
+| ![Home1](public/readme_ss/Home1.png) ![Home2](public/readme_ss/Home2.png) | ![Booki](public/readme_ss/Booki.png) ![payment1](public/readme_ss/payment1.png) |
 
 
 | My-Booking Page  |  Packages Page
 |-----------|--------------|
-| ![Home1](public/readme_ss/my-booking.png)| ![Home1](public/readme_ss/package.png)   |
+| ![my-bookin](public/readme_ss/my-booking.png)| ![package](public/readme_ss/package.png)   |
 
-|Success Page   | Loading..
+|Success Page   | Loading...
 |-----------|--------------|
-| ![Home1](public/readme_ss/Success.png)|![Home1](public/readme_ss/loading.png)   |
+| ![HomeSuccess1](public/readme_ss/Success.png)|![loading](public/readme_ss/loading.png)   |
 
 ## 📄 License
 
