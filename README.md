@@ -1,5 +1,5 @@
 <h1 align="left">
-  <img src="app/favicon.ico" width="45" height="45" style="vertical-align:middle; margin-right: 1px; margin-top: 25px;" />
+  <img src="app/favicon.ico" width="45" height="45" style="vertical-align:middle; margin-right: 1px; padding-top: 25px;" />
   Travels — Explore India
 </h1>
 
