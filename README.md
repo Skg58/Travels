@@ -1,7 +1,7 @@
-<h1 align="left">
-  <img src="app/favicon.ico" width="45" height="45" style="vertical-align:middle; margin-right: 1px; " />
-  Travels — Explore India
-</h1>
+<p align="center">
+  <img src="app/favicon.ico" width="80" alt="Travels Icon" />
+</p>
+<h1 align="center">Travels — Explore India</h1>
 
 
 Travels is a comprehensive, modern travel booking web application designed to help users effortlessly explore, plan, and book trips across India. Built with the latest technologies like Next.js App Router and Tailwind CSS, it combines speed, scalability, and a beautiful responsive design to deliver a seamless user experience.
@@ -91,8 +91,8 @@ MONGODB_URI=your_mongodb_connection_string
 NEXT_PUBLIC_RAZORPAY_KEY_ID=your_razorpay_key_id
 RAZORPAY_KEY_SECRET=your_razorpay_secret_key
 
-NODE_ENV=development
-NEXT_PUBLIC_URL=http://localhost:3000
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your_nextauth_secret_key
 
 # If using GitHub/Google for auth
 GITHUB_ID=your_github_client_id
@@ -125,6 +125,6 @@ Same as in `.env.local`, set these in **Project Settings → Environment Variabl
 
 ## 📧 Contact
 
-Made with ❤️ by [[skg58]](https://github.com/skg58/Travels)
+Made with ❤️ by [skg58](https://github.com/skg58/Travels)
 
 
