@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import Typed from 'typed.js';
+import mahjid from '@/public/images/mahjid.jpg'
 
 
 const TypedCity = () => {
@@ -80,7 +81,16 @@ export default function Home() {
     <div className="h-[170vh] md:h-[200vh] mb-20">
       <div >
         <div className='relative mx-auto w-[75vw] h-[30vh] md:h-[70vh] my-8 ' >
-          <Image src="/mahjid.avif" alt="mahjid" fill={true} className='object-cover  object-center rounded-4xl z-0 ' />
+           <Image
+            src={mahjid}
+            alt="mahjid"
+            fill ={true}
+            priority ={true}
+            quality={80}
+            sizes="75vw"
+            placeholder="blur"
+            className="object-cover object-center rounded-4xl z-0"
+          />
           <div className='absolute z-10 top-[-1vh]  ml-[4vw] md:ml-[9.2vw]' >
             <div className=" rounded-lg  p-8   ">
               <div className="text-gray-900 text-4xl md:text-7xl font-extrabold tracking-wide uppercase drop-shadow-lg mb-4 flex justify-center items-center flex-col md:flex-row gap-1 relative max-w-[50vw] md:max-w-screen -mr-[2] ">

@@ -90,7 +90,6 @@ MONGODB_URI=your_mongodb_connection_string
 NEXT_PUBLIC_RAZORPAY_KEY_ID=your_razorpay_key_id
 RAZORPAY_KEY_SECRET=your_razorpay_secret_key
 
-NEXTAUTH_URL=http://localhost:3000
 NEXTAUTH_SECRET=your_nextauth_secret_key
 
 # If using GitHub/Google for auth
