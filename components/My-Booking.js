@@ -86,7 +86,7 @@ export default function MyBookingsPage() {
             <tr className="bg-gray-100">
               <th className="py-3 px-4 font-semibold">Designation</th>
               <th className="py-3 px-4 font-semibold">Date</th>
-              <th className="pt-3 px-4 font-semibold flex flex-col justify-center pb-2 md:pb-0 "><div> Amount</div><div className='text-green-600 pl-2'>(Paid)</div></th>
+              <th className="pt-3 px-4 font-semibold flex flex-col justify-center pb-2 md:pb-0 "><div> Amount</div><div className='text-green-600 pl-1'>(Paid)</div></th>
               <th className="py-3 px-4 font-semibold">Passengers</th>
             </tr>
           </thead>
