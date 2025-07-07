@@ -11,7 +11,7 @@ function BookingRow({ booking }) {
       <td className="py-3 px-4">{booking.travelDate.split("T")[0]}</td>
       <td className="py-3 px-4 font-semibold text-green-600">₹{booking.amount}</td>
       <td className="py-3 px-4 max-w-[5vw] text-wrap">
-       { booking.passengers.map(p => p.name.split(" ")[0]).join(", ")}
+        {booking.passengers.map(p => p.name.split(" ")[0]).join(", ")}
       </td>
     </tr>
   );
@@ -53,7 +53,7 @@ export default function MyBookingsPage() {
     const bookingDate = new Date(b.travelDate);
     bookingDate.setHours(0, 0, 0, 0);
     return bookingDate < today;
-  }).sort((a, b) =>  new Date(b.travelDate)-new Date(a.travelDate) );;
+  }).sort((a, b) => new Date(b.travelDate) - new Date(a.travelDate));;
 
   const filteredBookings = tab === 'future' ? futureBookings : pastBookings;
 
@@ -86,7 +86,7 @@ export default function MyBookingsPage() {
             <tr className="bg-gray-100">
               <th className="py-3 px-4 font-semibold">Designation</th>
               <th className="py-3 px-4 font-semibold">Date</th>
-              <th className="pt-3 px-4 font-semibold flex flex-col justify-center pb-2 md:pb-0 "><div> Amount</div><div>(Paid)</div></th>
+              <th className="pt-3 px-4 font-semibold flex flex-col justify-center pb-2 md:pb-0 "><div> Amount</div><div className='text-green-600 pl-2'>(Paid)</div></th>
               <th className="py-3 px-4 font-semibold">Passengers</th>
             </tr>
           </thead>
