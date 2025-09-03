@@ -82,10 +82,17 @@ const Page = () => {
   }, [])
 
   useEffect(() => {
-    if (status === "unauthenticated") {
-      signIn();
-    }
+    validateUser()
   }, [status]);
+
+  const validateUser=() => {
+    if (status === "unauthenticated") {
+      signIn()
+      
+    }
+    
+  }
+  
 
   const handleNext = () => setStep(step + 1);
   const handleBack = () => setStep(step - 1);
@@ -316,7 +323,7 @@ const Page = () => {
                 ))}
               </div>
               <Link href={"/Packages"} ><div className='text-sm mt-1.5 underline text-blue-600 font-bold'>Know about Package</div></Link>
-              <button type="submit" className="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 mt-4 cursor-pointer">Next</button>
+              <button type="submit" onClick={()=>validateUser()} className="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 mt-4 cursor-pointer">Next</button>
             </form>
           )}
 
