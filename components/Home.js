@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Typed from 'typed.js';
 import mahjid from '@/public/images/mahjid.jpg'
-import taj from '@/public/images/5.avif'
 
 
 const TypedCity = () => {
@@ -31,7 +30,7 @@ const images = [
   '/2.avif',
   '/3.avif',
   '/4.avif',
-  taj,
+  '/5.jpg',
 ];
 
 export default function Home() {
