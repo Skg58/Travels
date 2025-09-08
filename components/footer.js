@@ -33,9 +33,9 @@ const footer = () => {
 
         <div className='w-full md:w-1/4 px-10'>
           <h2 className='text-2xl font-semibold mb-4'>Contact Us</h2>
-          <p className='text-sm mb-2'>789 Tech Park Road, Sector 5, HSR Layout, Bengaluru, Karnataka 560102</p>
-          <p className='text-sm mb-2'>Email: contact@Travels.in</p>
-          <p className='text-sm'>Phone: +91 98765 43210</p>
+          <p className='text-sm mb-2'>IIIT Bhagalpur , Bihar, 813210</p>
+          <p className='text-sm mb-2'>Email: sk5580852@gmail.com</p>
+          <p className='text-sm'>Phone: +91 7632068458</p>
         </div>
       </div>
       <div className='bg-white container mx-[14vw] h-[1px] w-[73vw] '></div>
