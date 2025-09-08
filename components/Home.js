@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Typed from 'typed.js';
 import mahjid from '@/public/images/mahjid.jpg'
+import taj from '@/public/images/5.avif'
 
 
 const TypedCity = () => {
@@ -30,7 +31,7 @@ const images = [
   '/2.avif',
   '/3.avif',
   '/4.avif',
-  '/5.avif',
+  taj,
 ];
 
 export default function Home() {
@@ -271,7 +272,7 @@ export default function Home() {
                 src={src}
                 width={400}
                 height={100}
-                alt={`Image ${index}`}
+                alt={`Image ${index+1}`}
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
                 className="absolute rounded-xl shadow-xl cursor-pointer transition-all duration-500 ease-in-out"
