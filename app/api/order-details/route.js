@@ -7,7 +7,10 @@ export async function GET(req) {
   const session = await getServerSession(authOptions);
   if (!session) {
     console.log("Debug: Session is null. Check NEXTAUTH_SECRET or Cookies.");
-    return Response.json({ error: "Unauthorized" }, { status: 401 });
+    return Response.json(
+      { error: "Unauthorized , Sign-in First!" },
+      { status: 401 }
+    );
   }
 
   const email = session?.user?.email;

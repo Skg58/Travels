@@ -71,7 +71,7 @@ const Page = () => {
   const [travelDate, setTravelDate] = useState("");
   const [pickup, setPickup] = useState("");
   const [selectedLocation, setSelectedLocation] = useState("");
-  const [selectedPack, setSelectedPack] = useState("pro");
+  const [selectedPack, setSelectedPack] = useState("Pro");
   const [passengers, setPassengers] = useState([{ ...initialPassenger }]);
   const [couponCode, setCouponCode] = useState("");
   const [showCouponInput, setShowCouponInput] = useState(false);
@@ -139,10 +139,10 @@ const Page = () => {
 
     const data = await res.json();
     if (data.valid) {
+      setdiscount(data.discountAmount);
+      setappliedCode(couponCode);
+      setcouponapplied(true);
       if (couponCode !== appliedCode) {
-        setdiscount(data.discountAmount);
-        setappliedCode(couponCode);
-        setcouponapplied(true);
         toast(`Coupon "${couponCode}" applied!`, {
           action: {
             label: "Undo",
@@ -241,6 +241,7 @@ const Page = () => {
       },
       modal: {
         ondismiss: function () {
+          e.target.disabled = false;
           toast("Payment Cancelled ", {
             action: {
               label: "Undo",
@@ -326,7 +327,7 @@ const Page = () => {
                           ? "border-indigo-600 bg-indigo-50 scale-105 shadow-lg"
                           : "border-gray-200 bg-white"
                       }
-                      ${pack.id === "pro" ? "z-10" : ""}`}
+                      ${pack.id === "Pro" ? "z-10" : ""}`}
                   >
                     <input
                       type="radio"
