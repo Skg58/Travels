@@ -1,5 +1,5 @@
 export { default } from "next-auth/middleware";
 
 export const config = {
-  matcher: ["/Booking/:path*"], // secure this path
+  matcher: ["/Booking/:path*","/Success/:path*"], // secure this path
 };
